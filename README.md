@@ -2,17 +2,20 @@
 
 Learning to use Git and GitHub
 
-I will now pull this repository in VSS
+I will now pull this repository in VSC
 
-Set path to required folder and to clone the online repository, use the command:
+Set path to required folder:
+cd ../(folder name)
+
+clone the online repository, use the command:
 git clone (link)
 
 ## Creating updates
 
-The hidden .git file visible upon the command:
+The hidden .git file visible upon using:
 ls -la
 
-In the terminal,the updates should be reflected upon using the command:
+In the terminal,the updates should be reflected upon using:
 git status
 
 Added identity:
