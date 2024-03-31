@@ -65,3 +65,19 @@ git checkout main
 
 delete feature branch:
 git branch -d (branchname)
+
+to undo commands:
+git reset
+
+to undo 1 step before the last commit:
+git reset HEAD~1
+
+to undo specific step in past, first: git log
+
+select the hash of the change of interest to copy, and to remove only that step:
+git reset (hash)
+
+to remove any changes from that one:
+git reset --hard (hash)
+
+Forking can be performed on GitHub when needed to work on public repositories. Upon locally editing code, pull request can be submitted to branches like dev, when later on get merged into master/main.
