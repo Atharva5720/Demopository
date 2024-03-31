@@ -4,6 +4,9 @@ Learning to use Git and GitHub
 
 I will now pull this repository in VSS
 
+Set path to required folder and to clone the online repository, use the command:
+git clone (link)
+
 ## Creating updates
 
 The hidden .git file visible upon the command:
